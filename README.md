@@ -4,7 +4,7 @@ An [IBM Cloud Schematics](https://console.bluemix.net/docs/services/schematics/i
 
 Schematics uses [Terraform](https://www.terraform.io/) as the infrastructure as code engine. With this template, you can provision and manage infrastructure as a single unit.
 
-See the [Terraform provider docs](https://ibm-bluemix.github.io/tf-ibm-docs/) for available resources for the IBM Cloud.
+See the [Terraform provider docs](https://ibm-bluemix.github.io/tf-ibm-docs/) for available resources for the IBM Cloud. **Note**: To create the resources that this template requests, your [IBM Cloud Infrastructure (Softlayer) account](https://console.bluemix.net/docs/iam/mnginfra.html#managing-infrastructure-access) and [IBM Cloud account](https://console.bluemix.net/docs/iam/mngiam.html#iammanidaccser) must have sufficient permissions.
 
 ## Create an environment with this template
 
@@ -12,8 +12,8 @@ Environments can be used to separate software components into development tiers 
 
 1. In IBM Cloud, go to the menu and select the [Schematics dashboard](https://console.bluemix.net/schematics).
 2. In the left navigation menu, select **Templates** to access the template catalog.
-3. Click **Create** on the auto-scaling group template. You are taken to a configuration page where you can define metadata about your environment. 
-4. Define values for your variables according to the following table. 
+3. Click **Create** on the auto-scaling group template. You are taken to a configuration page where you can define metadata about your environment.
+4. Define values for your variables according to the following table.
 
 ### Variables
 
