@@ -2,7 +2,7 @@
 resource "ibm_compute_ssh_key" "ssh_key" {
   label      = "${var.ssh-label}-${random_id.val.hex}"
   notes      = "for scale group"
-  public_key = "${var.public_key}"
+  public_key = "${var.ssh-key}"
 }
 
 resource "ibm_lb" "local_lb" {

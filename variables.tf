@@ -5,7 +5,7 @@ variable "softlayer-api-key" {
   description = "Your IBM Cloud Infrastructure (SoftLayer) API key."
 }
 
-variable "public_key" {
+variable "ssh-key" {
   default = ""
   description = "The public key contents for the SSH keypair."
 }
