@@ -1,7 +1,7 @@
-variable "softlayer-username" {}
-variable "softlayer-api-key" {}
+variable "softlayer_username" {}
+variable "softlayer_api_key" {}
 
-variable "ssh-key" {
+variable "public_key" {
   default = ""
 }
 
