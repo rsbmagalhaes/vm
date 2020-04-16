@@ -21,7 +21,7 @@ resource "ibm_compute_vm_instance" "twc_terraform_sample" {
     dedicated_acct_host_only = false
     local_disk = false
     ssh_key_ids = ["${ibm_compute_ssh_key.ssh_key.id}"]
-    tags = "magal" 
+    tags = ["magal"] 
     ssh_key_ids = ["${ibm_compute_ssh_key.ssh_key.id}"]
     #public_vlan_id = 1391277
     #private_vlan_id = 7721931
